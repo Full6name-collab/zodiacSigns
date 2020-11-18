@@ -34,7 +34,7 @@ select{
     margin: 5px;
     font-weight: bold;
 }
-input[type=text] ,input[type=password],input[type=date]{
+#genderr, input[type=text] ,input[type=password],input[type=date]{
     width: 100%;
     box-sizing: border-box;
     padding: 12px 5px;
@@ -46,6 +46,9 @@ input[type=text] ,input[type=password],input[type=date]{
     border-radius: 5px;
     margin: 5px;
     font-weight: bold;
+}
+#Zodiac{
+    display: none;
 }
 ::placeholder{
     color: white;
@@ -85,8 +88,8 @@ input[type=text] ,input[type=password],input[type=date]{
       -ms-overflow-style: none;
   }
   .na-link{
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
   }
   .scrol::-webkit-scrollbar{
       display: none;

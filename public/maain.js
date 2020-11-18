@@ -354,6 +354,5 @@ const genderField = document.getElementById('genderr');
 } else {
     Gender.innerHTML=`Gender:  ${genders} `;
 } 
- 
 }
        
